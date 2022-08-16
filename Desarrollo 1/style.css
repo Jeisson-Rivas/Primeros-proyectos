@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    background-color: #545454;
+    font-family: 'Lobster', cursive;  
+    height: 100vh;
+}
+h1{
+    background-color: darkgreen;
+    padding: 2%;
+    font-size: 32px;
+    text-align: center;
+    color: azure;
+}
+.columna{  
+    width: 50%;
+    float: left;
+    height: 13%;
+    color: azure;
+}
+label{
+    display: inline-block;
+    width: 28%;
+    padding: 1px 12px;
+}
+
+.cuadros{
+    padding: 20px 2px 40px;
+    border-radius: 3px;
+    background-color: azure;
+}
+
+.boton{
+    text-align: center;
+}
+button{
+    padding: 10px 20%;
+    background-color: darkgreen;
+    color: azure ;
+    font-family: 'Lobster', cursive;
+    border-radius: 15px;
+    font-size: 22px;
+}
+
+
+
+/*todos los label dentro de un div
+input 40 pixede alto
+3px border radius
+backgroud 

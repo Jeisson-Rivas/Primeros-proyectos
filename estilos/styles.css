@@ -1,0 +1,261 @@
+@font-face{
+  font-family: FuenteMH;
+  src: url(Fuentes/capitanejo-bt-regular-webfont.woff);
+}
+
+body{
+  font-family: FuenteMH;
+  margin: 0px;
+}
+
+header {
+  padding: 15px;
+  max-width: 1150px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+header ul.menu{
+  list-style: none;
+  display: inline-block;
+} 
+
+header ul.menu li{
+  float: left;
+  margin: 0px 30px;
+}
+
+li:nth-child(5) {
+  color: red;
+}
+
+
+#topbanner {
+  background-color: black;
+  height: 15px;
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+.img-responsive{
+  width: 100%;
+}
+
+div class="texto-banner"
+
+#carrusel{
+position: relative;
+}
+#carrusel img {
+  width: 100%;
+  position: relative;
+}
+
+#carrusel figcaption{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#carrusel figcaption h2{
+  font-size: 60px;
+  color: white;
+  text-transform: uppercase;
+  width: 400px;
+  text-align: center;
+}
+
+#carrusel figcaption .boton-control{
+  border: 2px solid white;
+  padding: 20px 40px;
+  background: radial-gradient(black, transparent);
+}
+
+#carrusel figcaption .boton-control a{
+  color: #FFF;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+#texto-intro {
+  text-align: center;
+  margin: auto;
+  height: 25%;
+}
+
+#mosaico{
+padding: 0 10%;
+}
+#mosaico img{
+  height: 100%;
+  width: 100%;
+}
+
+.mosaico-izq{
+  background:greenyellow;
+  width: 50%;
+  height: 300px;
+  text-align: center;
+  float: left;
+  }
+  
+  .mosaico-der{
+  background: blue;
+  width: 50%;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  }
+  
+  .m1{
+      background: red;
+      width: 50%;
+      height: 150px;
+      text-align: center;
+      float: left;
+  }
+  .m2{
+      background: brown;
+      width: 50%;
+      height: 150px;
+      text-align: center;
+      float: right;
+  }
+  .m3{
+      background: blueviolet;
+      width: 50%;
+      height: 150px;
+      text-align: center;
+      float: left;
+  }
+  .m4{
+      background:orange;
+      width: 50%;
+      height: 150px;
+      text-align: center;
+      float: right;
+  }
+
+  .prefooter {
+    background-color: #f7f7f7;
+  }
+  
+  .prefooter .container {
+    padding: 0 .9375rem;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    padding: 30px 0 20px;
+  }
+  
+  .prefooter .container .footer__col_1 {
+    width: 45%;
+    padding: 0 4% 0 0;
+  }
+  
+  .prefooter .container .footer__col_2 {
+    width: 35%;
+  }
+  
+  .prefooter .container .footer__col_3 {
+    width: 35%;
+    padding: 0 2%;
+  }
+  
+  .prefooter .container .footer__col_3 ul {
+    padding-inline-start: 0px;
+    margin: 0;
+  }
+  
+  .prefooter .container .footer__col_3 .footer__social {
+    padding: 0;
+    list-style: none;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 7px 0 0;  
+  }
+
+  .site-info {
+    text-align: center;
+    padding: 15px 13px;
+    font-size: 12px;
+    color: #8b8b8b;
+  }
+  
+  .barra-final {
+    height: 50px;
+    background-color: #152047;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .lista-footer{
+    list-style: none;
+  }
+  
+  .lista-footer li a{
+    color: black;
+    text-decoration: none;
+  }
+  
+  .prefooter .container .footer__col_1>div {
+    background-color: #fff;
+    padding-bottom: 7px;
+  }
+
+
+  
+/*  versión mobile */
+   @media (max-width: 600px){
+      header {
+          justify-content: center;
+          padding: 36px;
+      }
+      ul.menu{
+        display: none !important;
+      }
+      #carrusel{
+        position: relative;
+      }
+      #carrusel figcaption h2 {
+        font-size: 13px;
+      }
+      #carrusel figcaption .boton-control{
+        padding: 15px 25px;
+      }
+      #carrusel figcaption .boton-control a{
+        font-size: 16px;
+      }
+      .mosaico-izq{
+        width: 100%;
+        float: initial;
+      }
+      .mosaico-der {
+        width: 100%;
+  }
+    .prefooter .container {
+      display: block;
+  }
+    .prefooter .container .footer__col_1 {
+      width: 100%;
+  }
+    .prefooter .container .footer__col_2 {
+    width: 100%;
+  }
+    .prefooter .container .footer__col_3 {
+    width: 100%;
+    background: red;
+    padding: initial;
+  }
+
+
+  }
